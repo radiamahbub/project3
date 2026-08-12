@@ -54,13 +54,14 @@ class AddStudentController extends Controller
         if ($studentsInCurrentBatch >= 10) {
 
             $validatedData['batch'] = $currentBatch + 1;
-            $validatedData['status'] = 'pending';
-            $message = 'The batch is full. You have been moved to the next batch and marked as pending.';
+            $validatedData['status'] = 'approved';
+            $message = 'You have been added to the current batch and approved.';
         } else {
 
             $validatedData['batch'] = $currentBatch;
-            $validatedData['status'] = 'approved';
-            $message = 'You have been added to the current batch and approved.';
+            $validatedData['status'] = 'pending';
+            $message = 'The batch is full. You have been moved to the next batch and marked as pending.';
+
         }
 
         if ($request->hasFile('studentImage')) {

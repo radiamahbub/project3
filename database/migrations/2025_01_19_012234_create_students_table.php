@@ -24,7 +24,7 @@ return new class extends Migration
             $table->string('course_name');
             $table->decimal('course_fee', 8, 2);
             $table->string('payment_method');
-            $table->unsignedInteger('batch')->default(1);
+            $table->unsignedInteger('batch')->nullable();
             $table->unsignedBigInteger( 'approve_by')->nullable();
             $table->enum( 'status',['pending','approved'])->default('pending');
             $table->dateTime( 'approve_date')->nullable();

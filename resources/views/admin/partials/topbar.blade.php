@@ -58,7 +58,7 @@
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Radia Mahbub</span>
                 {{-- {{ Auth::guard('admin')->username }} --}}
                 <img class="img-profile rounded-circle"
-                     src="{{ asset('admin/img/undraw_profile_1.svg') }}">
+                     src="{{ asset('admin/img/Radia.svg') }}">
             </a>
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"

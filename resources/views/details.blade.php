@@ -152,7 +152,7 @@
                         </div>
                         <div class="col-5 offset-0">
                             <div class="card m-3 pt-4">
-                                <h3 class="ms-3">Google Classroom Integration</h3>
+                                <h3 class="ms-3">Google Classroom</h3>
                                 <p class="ms-3">Seamlessly sync courses and assignments with Google Classroom.</p>
                                 <ul class="list-unstyled ms-5">
                                     <li>✅ View Classroom</li>
