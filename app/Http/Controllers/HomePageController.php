@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Auth;
 class HomePageController extends Controller
 {
     public function index(){
-        return view("home");
+        $courses = Course::paginate(16);
+
+        return view('home', compact('courses'));
     }
     public function about(){
         return view("about");
