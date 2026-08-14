@@ -4,6 +4,7 @@
 All Courses
 @endsection
 
+
 @section('content')
 <h1 class="page-title">Creative Section</h1>
 <div class="card">
