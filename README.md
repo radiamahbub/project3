@@ -10,7 +10,7 @@ The project focuses on creating a clean, accessible, and user-friendly interface
 
 <!-- Paste your screenshot directly below this line when editing the README on GitHub -->
 
-![Learning Management System](./assets/lms-home.png)
+![Learning Management System](./public/assets/lms-home.png)
 
 ---
 
